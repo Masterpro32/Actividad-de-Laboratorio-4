@@ -37,7 +37,7 @@ if buscar_nombre in nombres:
 else:
     print("Persona no encontrada")
 
-# Lista de diccionarios
+# Lista de diccionarios--victoria
 usuarios = [
     {
         "nombre": "Diego",
