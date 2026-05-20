@@ -62,3 +62,14 @@ print("\nUsuarios encontrados en", ciudad_buscar)
 for usuario in usuarios:
     if usuario["ciudad"] == ciudad_buscar:
         print(usuario)
+
+# Ordenar por orden alfabetico los nombres - por Haziel 
+nombres_usuarios = []
+for usuario in usuarios:
+    nombres_usuarios.append(usuario["nombre"])
+nombres_usuarios.sort()
+print("\nNombres ordenados alfabeticamente:")
+print(nombres_usuarios)
+
+# Fin del programa
+print("\nPrograma ejecutado correctamente")
