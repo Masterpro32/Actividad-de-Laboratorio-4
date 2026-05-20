@@ -36,3 +36,29 @@ if buscar_nombre in nombres:
     print("Edad:", edades[indice])
 else:
     print("Persona no encontrada")
+
+# Lista de diccionarios--victoria
+usuarios = [
+    {
+        "nombre": "Diego",
+        "email": "diego@gmail.com",
+        "ciudad": "Lima"
+    },
+    {
+        "nombre": "Harol",
+        "email": "harol@gmail.com",
+        "ciudad": "Cajamarca"
+    },
+    {
+        "nombre": "Victoria",
+        "email": "victoria@gmail.com",
+        "ciudad": "Lima"
+    }
+]
+
+# Buscar usuarios por ciudad
+ciudad_buscar = "Lima"
+print("\nUsuarios encontrados en", ciudad_buscar)
+for usuario in usuarios:
+    if usuario["ciudad"] == ciudad_buscar:
+        print(usuario)
