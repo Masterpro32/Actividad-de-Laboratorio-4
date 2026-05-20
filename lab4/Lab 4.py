@@ -9,3 +9,13 @@ print(texto)
 subcadena = texto[0:6]
 print("\nSubcadena:")
 print(subcadena)
+
+# Buscar una palabra especifica
+posicion = texto.find("Lima")
+print("\nPosicion de la palabra 'Lima':")
+print(posicion)
+
+# Reemplazar una palabra por otra
+nuevo_texto = texto.replace("Lima", "Cajamarca")
+print("\nTexto reemplazado:")
+print(nuevo_texto)
