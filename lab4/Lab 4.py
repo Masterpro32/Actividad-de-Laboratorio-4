@@ -10,7 +10,16 @@ subcadena = texto[0:6]
 print("\nSubcadena:")
 print(subcadena)
 
-#Parte-5-y-6
+# Buscar una palabra especifica
+posicion = texto.find("Lima")
+print("\nPosicion de la palabra 'Lima':")
+print(posicion)
+
+# Reemplazar una palabra por otra
+nuevo_texto = texto.replace("Lima", "Cajamarca")
+print("\nTexto reemplazado:")
+print(nuevo_texto)
+
 # Separar el texto en partes
 palabras = texto.split()
 print("\nTexto separado en palabras:")
@@ -27,13 +36,3 @@ if buscar_nombre in nombres:
     print("Edad:", edades[indice])
 else:
     print("Persona no encontrada")
-
-# Buscar una palabra especifica
-posicion = texto.find("Lima")
-print("\nPosicion de la palabra 'Lima':")
-print(posicion)
-
-# Reemplazar una palabra por otra
-nuevo_texto = texto.replace("Lima", "Cajamarca")
-print("\nTexto reemplazado:")
-print(nuevo_texto)
